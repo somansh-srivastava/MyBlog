@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My HTML & CSS Roadmap</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts for modern feel -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container flex-between">
+      <h1>My HTML & CSS Learning Roadmap</h1>
+      <nav>
+        <ul>
+          <li><a href="#roadmap">Roadmap</a></li>
+          <li><a href="#resources">Resources</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome</h2>
+      <p>
+        I'm Somansh <br><br>
+        This website tracks my progress and shares what I’ve learned about HTML & CSS. <br>
+        Follow my roadmap below and use the resources if you’re also just starting out!
+      </p>
+    </div>
+  </section>
+  <main>
+    <div class="container" id="roadmap">
+      <h2>HTML & CSS Roadmap</h2>
+      <!-- Lesson Cards -->
+      <div class="lesson-cards">
+        <section class="lesson-card">
+          <h3>1. HTML Document Structure</h3>
+          <p>
+            Learned about <code>&lt;!DOCTYPE html&gt;</code>, <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>.
+            Practiced building the skeleton of a webpage.
+          </p>
+          <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello World!&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+          </code></pre>
+        </section>
+        <section class="lesson-card">
+          <h3>2. Text, Links & Lists</h3>
+          <p>
+            Discovered elements like <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;ul&gt;&lt;li&gt;</code> and made my first list of favorite topics.
+          </p>
+          <ul>
+            <li>Semantic paragraph structures</li>
+            <li>Clickable links <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">[MDN Docs]</a></li>
+            <li>Organized lists for notes</li>
+          </ul>
+        </section>
+        <section class="lesson-card">
+          <h3>3. CSS Selectors & Styling</h3>
+          <p>
+            Wrote my first CSS to change colors, font, spacing, and add modern effects!
+          </p>
+          <pre><code>body {
+  background: linear-gradient(120deg, #dbeafe, #fff);
+  color: #1e1e2f;
+  font-family: 'Inter', Arial, sans-serif;
+}
+h1 {
+  color: #2563eb;
+}</code></pre>
+          <p>Helpful video: 
+            <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank">CSS Crash Course (YouTube)</a>
+          </p>
+        </section>
+
+    <div class="container" id="resources">
+      <h2>Resources & Reference Links</h2>
+      <ul class="resource-list">
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML" target="_blank">MDN HTML Tutorial</a></li>
+        <li><a href="https://flexboxfroggy.com" target="_blank">Flexbox Froggy Game</a></li>
+        <li><a href="https://cssgridgarden.com" target="_blank">Grid Garden Game</a></li>
+      </ul>
+      <iframe class="res-yt" width="360" height="203" src="https://www.youtube.com/embed/JJSoEo8JSnc" 
+        title="Modern CSS Layouts" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="container" id="about">
+      <h2>About This Project</h2>
+      <p>
+        you can add the text here if u  wnt or remove the h2 tag<br>
+        Sample txtt 🚀
+      </p>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My HTML & CSS Roadmap | Made for learning & sharing</p>
+    </div>
+  </footer>
+</body>
+</html>
